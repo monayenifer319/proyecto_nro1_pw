@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Opreciones de un matriz</title>
+</head>
+<body>
+<form action="matriz_a.php" method="post">
+<table width="78" border="0" align="center">
+  <tr>
+    <td><h1 align="center">Matriz A - 3*3 </h1>
+    <table border="2">
+        <tr>
+          <td>
+            <input type="text" name="a1" />
+          </td>
+          <td>
+            <input type="text" name="a2" />
+          </td>
+          <td>
+            <input type="text" name="a3" />
+          </td>
+      </tr>
+  </tr>
+  <tr>
+          <td>
+            <input type="text" name="a4" />
+          </td>
+          <td>
+            <input type="text" name="a5" />
+          </td>
+          <td>
+            <input type="text" name="a6" />
+          </td>
+    </tr>
+    <tr>
+          <td>
+            <input type="text" name="a7" />
+          </td>
+          <td>
+            <input type="text" name="a8" />
+          </td>
+          <td>
+            <input type="text" name="a9" />
+          </td>
+   	</tr>
+</table> <br><br>
+<label>digite el número por el cual  desea multiplicar la matriz</label>
+ <input type="text" name="mul"/><br><br>
+<label>selecione la operacion a realizar</label>
+        <select name="evaluar">
+            <option value="determinante">determinante de la matriz </option>
+            <option value="inversa"> matriz inversa </option>
+            <option value="transpuesta">matriz transpuesta </option>
+            <option value="multiplicar"> multiplicar lamatriz por n</option>
+            <option value="elevada">matriz elevada a la n </option>
+        </select>
+        <input type="submit" name="ver" value="ver resutado">
+</form>
+	
+</body>
+</html>
